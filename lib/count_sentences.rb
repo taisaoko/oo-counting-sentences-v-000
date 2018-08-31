@@ -18,7 +18,6 @@ class String
     array = self.split(/[.?!]/)
     array.delete_if {|sentence| sentence == ""}
     array.count
-    binding.pry
   end
   
 end
